@@ -1,9 +1,8 @@
 Package: debCAM
 Type: Package
 Title: Deconvolution by Convex Analysis of Mixtures
-Version: 1.9.2
-Author: Lulu Chen <luluchen@vt.edu>
-Maintainer: Lulu Chen <luluchen@vt.edu>
+Version: 1.9.3
+Authors@R: person("Lulu", "Chen", email = "luluchen@vt.edu", role = c("aut", "cre"))
 biocViews: Software, CellBiology, GeneExpression
 Description: An R package for fully unsupervised deconvolution of complex 
     tissues. It provides basic functions to perform 
@@ -43,4 +42,3 @@ Imports:
     graphics
 SystemRequirements: Java (>= 1.8)
 BugReports: https://github.com/Lululuella/debCAM/issues
-Remotes: ltorgo/DMwR2
